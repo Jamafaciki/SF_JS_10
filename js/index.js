@@ -40,6 +40,7 @@ function getColorFruits(arg){
     } else if(arg == "светло-коричневый"){
       return "fruit_lightbrown";
     } else {
+      alert("Введённого цвета нет в списке доступных, цвет будет зелёным");
       return "fruit_green"; 
     }
 }
